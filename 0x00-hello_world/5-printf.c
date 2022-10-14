@@ -3,8 +3,6 @@
 /**
  *	main - Entry point
  *
- *	Description: 'This programme orints out a string using the function printf'
- *
  *	Result: Always 0 (Success)
  */
 
