@@ -4,7 +4,7 @@
  *
  *	main - Entry point
  *
- *
+ *	Description: 'This is my first C programme'
  *
  *	Return: Always 0 (Success)
  */
