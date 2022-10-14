@@ -14,11 +14,10 @@
 int main(void)
 {
 	long n;
+	int digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	int digit;
 
 	digit = n % 10;
 
