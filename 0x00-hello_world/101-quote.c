@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
- * 	main - Entry point
+ *	main - Entry point
  *
- * 	Description: 'This code prints a string to the standard error'
+ *	Description: 'This code prints a string to the standard error'
  *
- * 	Return: 1 (Success)
+ *	Return: 1 (Success)
  */
 
 int main(void)
