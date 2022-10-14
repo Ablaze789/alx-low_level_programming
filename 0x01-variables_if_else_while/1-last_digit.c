@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- *
  *	main - Entry point
  *
  *	Description: 'This project print the last digit'
@@ -28,5 +27,5 @@ int main(void)
 			printf("Last digit of %li is %d and is 0", n, digit);
 		else
 			printf("Last digit of %li is %d and is less than 6 and not 0", n, digit);
-	return (0);	
+	return (0);
 }
