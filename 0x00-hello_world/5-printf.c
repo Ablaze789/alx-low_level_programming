@@ -3,7 +3,9 @@
 /**
  *	main - Entry point
  *
- *	Result: Always 0 (Success)
+ *	Description: 'This program prints out the string in the main function'
+ *
+ *	Return: Always 0
  */
 
 int main(void)
