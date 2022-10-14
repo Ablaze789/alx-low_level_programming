@@ -12,7 +12,7 @@ int main(void)
 {
 	char a;
 
-	a = "with proper grammar, but the outcome is a piece of art,"
+	a = "with proper grammar, but the outcome is a piece of art,";
 
 	/* Displays the string inside quotations */
 	printf("%c\n", a);
