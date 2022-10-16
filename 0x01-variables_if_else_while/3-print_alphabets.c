@@ -5,7 +5,6 @@
 
 
 /**
- *
  *	main - Entry point
  *
  *	Description: 'This is a code that prints alphabet'
