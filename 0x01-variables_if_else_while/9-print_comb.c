@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * 
- * Description: 'This code prints all the possible combination of single digit numbers'
+ *
+ * Description: 'Prints all the possible combination of single digit numbers'
  *
  * Return: Always 0 (Success)
  */
