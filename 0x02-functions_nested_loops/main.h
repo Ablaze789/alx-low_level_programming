@@ -3,6 +3,7 @@
 #include <stdio.h>
 int _putchar(char x) {
     putchar(x);
+    return (0);
 }
 
 #endif
