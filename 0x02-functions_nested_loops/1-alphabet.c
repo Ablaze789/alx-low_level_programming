@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *	main -Entry point
+ *  main -Entry point
  *
- *	Description: 'This is a print code'
+ *  Description: 'This is a print code'
  *
- *	Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  */
 
 int main(void)
