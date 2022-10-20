@@ -12,10 +12,11 @@ extern int _isupper(int c)
   if (isupper(c))
   {
     a = 1;
+    putchar(a);
   }else{
     a = 0;
+    putchar(a);
   }
-  return (a);
 }
   int 
 #endif
