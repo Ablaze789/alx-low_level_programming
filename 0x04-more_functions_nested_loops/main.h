@@ -8,6 +8,14 @@ extern int _putchar(char c)
 }
 extern int _isupper(int c)
 {
-  int _isupper(int c); 
+  int a;
+  if (isupper(c))
+  {
+    a = 1;
+  }else{
+    a = 0;
+  }
+  return (a);
 }
+  int 
 #endif
