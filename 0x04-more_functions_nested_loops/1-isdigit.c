@@ -1,18 +1,22 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * _isdigit - 
  *
  * Return: Always 0.
  */
-int main(void)
+int _isdigit(int c)
 {
-    char c;
+	int a;
 
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
-    return (0);
+	if (isdigit(c))
+	{
+		a = 1;
+	}
+	else
+	{
+		a = 0;
+	}
+
+	return (a);
 }
