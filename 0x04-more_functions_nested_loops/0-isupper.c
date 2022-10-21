@@ -12,10 +12,8 @@ int _isupper(int c)
 	if (isupper(c))
 	{
 	a = 1;
-	putchar(a);
 	}else{
 	a = 0;
-	putchar(a);
 	}
-	return (0);
+	return (a);
 }
