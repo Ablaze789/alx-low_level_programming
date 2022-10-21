@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ *mul - This code multiply two integer
+ *@a: first integer
+ *@b: second integer
  *
- * Return: Always 0.
+ *Return: Always 0.
  */
 int mul(int a, int b)
 {
