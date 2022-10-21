@@ -9,7 +9,7 @@
 int _isupper(int c)
 {
 	int a;
-	
+
 	if (isupper(c))
 	{
 		a = 1;
@@ -18,6 +18,6 @@ int _isupper(int c)
 	{
 		a = 0;
 	}
-	
+
 	return (a);
 }
