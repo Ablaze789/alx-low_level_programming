@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit - 
+ *	_isdigit - This code checks if a variable is digit
+ *	@c: This is the variable
  *
- * Return: Always 0.
+ *	Return: Always 0.
  */
+
 int _isdigit(int c)
 {
 	int a;
