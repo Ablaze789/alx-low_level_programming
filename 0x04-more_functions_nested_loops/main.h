@@ -4,6 +4,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int _isupper(char c);
+int _isupper(int c);
 
 #endif /*MAIN_H*/
