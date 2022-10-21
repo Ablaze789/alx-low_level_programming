@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-*	print_most_numbers - This prints the mumber 0-9 with the exception of 2 and 4
+*	print_most_numbers - This prints the mumber 0-9
 *	Return: void
 */
 
