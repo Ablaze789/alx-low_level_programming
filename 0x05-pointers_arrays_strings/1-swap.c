@@ -10,7 +10,7 @@
 
 void swap_int(int *a, int *b)
 {
-	int *c = (int*)malloc(n * sizeof(int));
+	int *c = (int*)malloc(4 * sizeof(int));
 
 	*c = *a;
 	*a = *b;
