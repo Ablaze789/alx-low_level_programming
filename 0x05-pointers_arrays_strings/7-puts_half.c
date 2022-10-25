@@ -20,9 +20,12 @@ void puts_half(char *str)
 		n += 1;
 	}
 
-	for (i = n; i <= length_of_the_string; i++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%c", str[i]);
+		if (n % 2 == 0)
+		{
+			printf("%c", str[i + n]);
+		}
 	}
 	putchar('\n');
 }
