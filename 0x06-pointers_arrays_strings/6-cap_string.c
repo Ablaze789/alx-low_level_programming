@@ -15,7 +15,10 @@ char *cap_string(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] == ',' ||
+		if (str[i] == ' ' ||
+		str[i] == '\t' ||
+		str[i] == '\n' ||
+		str[i] == ',' ||
 		str[i] == ';' ||
 		str[i] == '.' ||
 		str[i] == '!' ||
@@ -34,6 +37,7 @@ char *cap_string(char *str)
 			{
 				str[i] -= 32;
 				sep = 0;
+			}
 		}
 		i++;
 	}
