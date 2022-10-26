@@ -15,31 +15,15 @@ int _strcmp(char *s1, char *s2)
 
 	i = 0;
 	j = 0;
-	
-	while (s1[i] != '\0')
+
+	while (s1[i] != '\0' && s2[j] != '\0')
 	{
+		if (s1[i] != s2[i])
+		{
+			return (s1[1] - s2[i]);
+		}
 		i++;
 	}
-	while (s2[j] != '\0')
-	{
-		j++;
-	}
 
-	if (i < j)
-	{
-		n = -15;
-	}
-	else
-	{
-		if (i > j)
-		{
-			n = 15;
-		}
-		else
-		{
-			n = 0;
-		}
-	}
-
-	return (n);
+	return (0);
 }
