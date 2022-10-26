@@ -10,41 +10,31 @@
 char *cap_string(char *str)
 {
 	int i;
-	int sep;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str[i])
 	{
-		if (str[i] == '\t' ||
-		str[i] == '\n' ||
-		str[i] == ' ' ||
-		str[i] == ',' ||
-		str[i] == ';' ||
-		str[i] == '.' ||
-		str[i] == '!' ||
-		str[i] == '?' ||
-		str[i] == '"' ||
-		str[i] == '(' ||
-		str[i] == ')' ||
-		str[i] == '{' ||
-		str[i] == '}')
+		while (!(str[i] >= 'a' && str[i] <= 'z'))
 		{
-			sep = 1;
-		}
-		else
-		{
-			if ((str[i] >= 'a' && str[i] <= 'z' && sep == 1)  ||
-		i == '0')
+			i++;
+			if (str[i] == '\t' ||
+			str[i] == '\n' ||
+			str[i] == ' ' ||
+			str[i] == ',' ||
+			str[i] == ';' ||
+			str[i] == '.' ||
+			str[i] == '!' ||
+			str[i] == '?' ||
+			str[i] == '"' ||
+			str[i] == '(' ||
+			str[i] == ')' ||
+			str[i] == '{' ||
+			str[i] == '}' ||
+			i == 0)
 			{
 				str[i] -= 32;
-				sep = 0;
-			}
-			else
-			{
-				sep = 0;
 			}
 		}
-		i++;
 	}
 	return (str);
 }
