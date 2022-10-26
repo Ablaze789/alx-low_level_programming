@@ -32,7 +32,8 @@ char *cap_string(char *str)
 		}
 		else
 		{
-			if (str[i] >= 'a' && str[i] <= 'z' && sep == 1)
+			if (str[i] >= 'a' && str[i] <= 'z' && sep == 1  ||
+		i == '0')
 			{
 				str[i] -= 32;
 				sep = 0;
