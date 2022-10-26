@@ -39,6 +39,10 @@ char *cap_string(char *str)
 				str[i] -= 32;
 				sep = 0;
 			}
+			else
+			{
+				sep = 0;
+			}
 		}
 		i++;
 	}
