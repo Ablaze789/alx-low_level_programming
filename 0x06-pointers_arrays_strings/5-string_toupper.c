@@ -10,7 +10,6 @@
 char *string_toupper(char *n)
 {
 	int i;
-	int j;
 
 	i = 0;
 	while (n[i] != '\0')
