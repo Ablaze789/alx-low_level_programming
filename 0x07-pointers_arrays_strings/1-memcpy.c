@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *	*_memset - The _memset() function fills the first n bytes of
+ *	*_memcpy - The _memset() function fills the first n bytes of
  *	the memory area pointed to by s with the constant byte b.
  *	@dest: The destination memory area
  *	@src: The source memory address
