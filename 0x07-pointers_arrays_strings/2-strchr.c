@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 /**
  *	_strchr - This function a pointer to the first occurrence of the character
  *	c in the string s, or NULL if the character is not found
