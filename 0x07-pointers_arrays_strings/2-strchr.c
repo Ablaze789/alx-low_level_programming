@@ -15,10 +15,14 @@ char *_strchr(char *s, char c)
 	{
 		return (NULL);
 	}
-	for (int i = 0; s[i] >= '\0'; i++)
+	for (; *s; s++)
 	{
-		if (s[i] == c)
-			return (&s[i]);
+		if (*s == c)
+			return (s);
+	}
+	if (s == c)
+	{
+		return (s);
 	}
 	return (NULL);
 }
