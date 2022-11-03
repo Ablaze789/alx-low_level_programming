@@ -14,11 +14,11 @@ void _puts_recursion(char *s)
 	_putchar("%c", s(i));
 	i ++;
 	if (s(i) != '\0')
-  {
+	{
 		_puts_recursion(s);
-  }
-  else
-  {
+	}
+	else
+	{
 		_putchar("\n");
 	}
 }
