@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-extern int _putchar(char x);
+int _putchar(char x);
 
 #endif
