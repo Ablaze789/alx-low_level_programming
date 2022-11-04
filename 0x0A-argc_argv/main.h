@@ -4,6 +4,5 @@
 #include <stdio.h>
 
 extern int _putchar(char x);
-extern void print_alphabet(void)
 
 #endif
