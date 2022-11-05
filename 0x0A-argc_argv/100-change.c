@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		if (change > 0)
 		{
 			int arr_size = sizeof(coin) / sizeof(coin[1]);
-			
+
 			for (int i = 0; i < arr_size; i++)
 			{
 				if ((change / coin[i]) > 0)
