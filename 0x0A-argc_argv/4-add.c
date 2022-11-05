@@ -13,9 +13,9 @@
 
 int checker(char *str)
 {
-	int count;
+	unsigned int count;
 	
-	for (count = 0; count > strlen(str); count++)
+	for (count = 0; count < strlen(str); count++)
 	{
 		if (!isdigit(str[count]))
 		{
