@@ -8,7 +8,7 @@
 /**
  *	checker - check the argument for string
  *	@str: input
- *	Return: 1 (No string) or o (String found!)
+ *	Return: Always 0 (Success)
  */
 
 int checker(char *str)
