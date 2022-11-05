@@ -11,16 +11,15 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int a;
+	int b;
 	int product;
 
-	product = 1;
 	if (argc == 3)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			product *= argv[i];
-		}
+		a = argv[1];
+		b = argv[2];
+		product = a * b;
 		printf("%d\n", product);
 		return (0);
 	}
