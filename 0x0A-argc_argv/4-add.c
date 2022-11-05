@@ -37,6 +37,12 @@ int main(int argc, char *argv[])
 	int sum;
 
 	sum = 0;
+	if (argc < 2)
+	{
+		printf("%d\n", sum);
+		return (0);
+	}
+	
 	for (count = 1; count < argc; count++)
 	{
 		if (checker(argv[count]))
