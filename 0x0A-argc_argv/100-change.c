@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 	int change;
 	int count;
 	int pieces;
+	int i;
 	int coin[] = {25, 10, 5, 2, 1};
 
 	count = 0;
@@ -24,7 +25,7 @@ int main(int argc, char *argv[])
 		{
 			int arr_size = sizeof(coin) / sizeof(coin[1]);
 
-			for (int i = 0; i < arr_size; i++)
+			for (i = 0; i < arr_size; i++)
 			{
 				if ((change / coin[i]) > 0)
 				{
