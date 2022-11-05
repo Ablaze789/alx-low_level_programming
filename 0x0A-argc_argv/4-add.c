@@ -12,7 +12,7 @@
 int checker(char *str)
 {
 	unsigned int count;
-	
+
 	for (count = 0; count < strlen(str); count++)
 	{
 		if (!isdigit(str[count]))
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", sum);
 		return (0);
 	}
-	
+
 	for (count = 1; count < argc; count++)
 	{
 		if (checker(argv[count]))
