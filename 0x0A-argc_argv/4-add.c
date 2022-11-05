@@ -35,15 +35,15 @@ int checker(char *str)
 int main(int argc, char *argv[])
 {
 	int a;
-	int i;
+	int count;
 	int sum;
 
 	sum = 0;
-	for (i = 1; i < argc; i++)
+	for (count = 1; count < argc; count++)
 	{
-		if (checker(argv[i]))
+		if (checker(argv[count]))
 		{
-			a = atoi(argv[i]);
+			a = atoi(argv[count]);
 			sum += a;
 		}
 		else
