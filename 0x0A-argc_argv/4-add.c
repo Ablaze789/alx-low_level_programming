@@ -39,27 +39,19 @@ int main(int argc, char *argv[])
 	int sum;
 
 	sum = 0;
-	if (argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		if (checker(argv[i]))
 		{
-			if (checker(argv[i]))
-			{
-				a = atoi(argv[i]);
-				sum += a;
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
+			a = atoi(argv[i]);
+			sum += a;
 		}
-		printf("%d\n", sum);
-		return (0);
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
 	}
-	else
-	{
-		printf("%d\n", sum);
-		return (0);
-	}
+	printf("%d\n", sum);
+	return (0);
 }
