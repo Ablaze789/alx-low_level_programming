@@ -6,7 +6,7 @@
  *	Return: void
  */
 
-int char *_memset(char *s, char b, unsigned int n);
+int char *_memset(char *s, char b, unsigned int n)
 {
 	return (0);
 }
