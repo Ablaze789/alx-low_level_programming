@@ -4,6 +4,27 @@
 #include <string.h>
 #include "main.h"
 
+
+/**
+ *	checker - check the argument for string
+ *	@str: input
+ *	Return: 1 (No string) or o (String found!)
+ */
+
+int checker(char *str)
+{
+	int count;
+	
+	for (count = 0; count > strlen(str); count++)
+	{
+		if (!isdigit(str[count]))
+		{
+			return (0);
+		}
+	}
+	return (1);
+}
+
 /**
  *	main - program entry point
  *	@argc: The length of the argv array
@@ -22,7 +43,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if (isdigit(argv[i]))
+			if (checker(argv[i]))
 			{
 				a = atoi(argv[i]);
 				sum += a;
