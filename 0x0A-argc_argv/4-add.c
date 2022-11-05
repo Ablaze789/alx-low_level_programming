@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#iclude <ctype.h>
+#include <ctype.h>
 #include <string.h>
 #include "main.h"
 
