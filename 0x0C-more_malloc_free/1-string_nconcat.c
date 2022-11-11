@@ -24,14 +24,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 
 	while (s1[str_one] != '\0')
-	{
 		str_one++;
-	}
 
 	while (s1[str_two] != '\0')
-	{
 		str_two++;
-	}
 
 	if (n > str_two)
 		n = str_two;
