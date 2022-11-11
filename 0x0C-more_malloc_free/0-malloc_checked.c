@@ -1,14 +1,20 @@
 #include "main.h"
 
 /**
- *	_strcat - This function appends the src string to the dest string
- *	@dest: This hold the first string
- *	@src: This hold the second string
- *	Return: Always 0
+ *	malloc_checked - This is a function that allocates memory using malloc
+ *	@b: size to be allocated
+ *	Return: NULL
  */
 
-char *_strcat(char *dest, char *src)
+void *malloc_checked(unsigned int b)
 {
-	strcat(dest, src);
-	return (dest);
+	void *p;
+	
+	p = malloc(b);
+	if (p == NULL)
+	{
+		exit(98);
+	}
+	
+	return (p);
 }
