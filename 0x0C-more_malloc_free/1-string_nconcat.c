@@ -2,7 +2,9 @@
 
 /**
  *	string_nconcat - This is a a function that concatenates two strings.
- *	@b: size to be allocated
+ *	@s1: first string
+ *	@s2: second string
+ *	@n: no of byte to concatenate
  *	Return: NULL
  */
 
@@ -16,14 +18,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	str_one = 0;
 	str_two = 0;
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 
 	while (s1[str_one] != '\0')
 	{
@@ -36,10 +34,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	if (n > str_two)
-	{
 		n = str_two;
 		p = malloc((size1 + n + 1) * sizeof(char));
-	}
 
 	if (p == NULL)
 	{
