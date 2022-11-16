@@ -34,8 +34,8 @@ void print_elem_hex(int elem)
 int main(void)
 {
 	int array[5] = {0, 98, 402, 1024, 4096};
-	
-	array_iterator(array, 5, &print_elem);	
+
+	array_iterator(array, 5, &print_elem);
 	array_iterator(array, 5, &print_elem_hex);
 	return (0);
 }
