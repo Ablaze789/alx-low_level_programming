@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- *	array_iterator - Execute a function for each element of an arrray
+ *	int_index - Execute a function that compares each element of an arrray
  *	@array: array of numbers
  *	@size: size of the array to convert
  *	@cmp: compares elements of array with a given integer
@@ -15,10 +15,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	i = 0;
 	if (size <= 0)
-  {
+	{
 		return (-1);
-  }
-  
+	}
+
 	while (i < size)
 	{
 		if (cmp(array[i]))
