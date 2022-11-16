@@ -5,7 +5,7 @@
  *	array_iterator - Execute a function for each element of an arrray
  *	@array: array of numbers
  *	@size: size of the array to convert
- *  @action: The pointer to the function to execute
+ *	@action: The pointer to the function to execute
  *	Return: Void
  */
 
