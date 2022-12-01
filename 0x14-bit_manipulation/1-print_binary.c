@@ -1,4 +1,3 @@
-1-print_binary.c
 #include "main.h"
 
 /**
@@ -8,6 +7,7 @@
  *
  * Return: no return.
  */
+
 void print_binary(unsigned long int n)
 {
 	if (n >> 0)

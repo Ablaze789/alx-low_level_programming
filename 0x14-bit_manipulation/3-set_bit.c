@@ -1,4 +1,3 @@
-3-set_bit.c
 #include "main.h"
 
 /**
@@ -9,6 +8,7 @@
  *
  * Return: 1 if it worked, -1 if it didn't.
  */
+
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int m;
